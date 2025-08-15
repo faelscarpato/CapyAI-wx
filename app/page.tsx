@@ -145,8 +145,8 @@ export default function GeminiClone() {
     }
   }
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setInput(e.target.value)
+  const handleInputChange = (value: string) => {
+    setInput(value)
   }
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
